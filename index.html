@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{
+            text-align: center;
+            color: white;
+        }
+        h2{
+           
+            color: blue;
+        }
+        * {
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            height: 100vh;
+            background-color: blue;
+            padding: 10px;
+        }
+
+        #planes {
+            display: flex;
+            height: 35%;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 5px;
+            justify-content: space-around;
+            
+        }
+        .plan{
+            
+            background-color: white;
+            width: 25%;
+            padding: 30px;
+            border-radius: 10px;
+            height: 100%;
+            text-align: center;
+            
+            
+        }
+        .plan a{
+            font-size: 1.5;
+            background-color: aquamarine;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .precio{
+            font-size: 50px;
+            font-style: italic;
+            margin-bottom: 15px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Elija el plan mas adecuado y disfurte de nuestros servicios</h1>
+    <div id="planes">
+        <div class="plan">
+            <h2>Principiante</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint aliquid earum fugit veniam,
+                vitae corrupti esse. Quis excepturi exercitationem quod, dignissimos esse quaerat libero, soluta
+                accusamus harum, deserunt earum?</p>
+                <p class="precio">1€/mes</p>
+                <a href="#">Elegir</a>
+        </div>
+        <div class="plan">
+            <h2>Basico</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint aliquid earum fugit veniam,
+                vitae corrupti esse. Quis excepturi exercitationem quod, dignissimos esse quaerat libero, soluta
+                accusamus harum, deserunt earum?</p>
+                <p class="precio">10€/mes</p>
+                <a href="#">Elegir</a>
+        </div>
+        <div class="plan">
+            <h2>Profesionales</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint aliquid earum fugit veniam,
+                vitae corrupti esse. Quis excepturi exercitationem quod, dignissimos esse quaerat libero, soluta
+                accusamus harum, deserunt earum?</p>
+                <p class="precio">25€/mes</p>
+                <a href="#">Elegir</a>
+        </div>
+    </div>
+</body>
+
+</html>
